@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/main_courses_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold|normal"
+        android:textSize="24sp"
+        android:gravity="center_vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#004d40"
+        android:layout_marginLeft="16dp"
+        android:alpha="0.6"
+        android:translationZ="0.5dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_slides_course_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:background="#18ffff"/>
+
+</LinearLayout>

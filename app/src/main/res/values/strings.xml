@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Udacity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_course_details">CourseDetails</string>
+
+    <!-- Panels Strings -->
+    <string name="summary_panel">About this Course</string>
+    <string name="syllabus_panel">What You Will Learn</string>
+    <string name="expected_learning_panel">-Why Take This Course</string>
+    <string name="requirements_panel">Prerequisites and Requirements</string>
+
+</resources>
